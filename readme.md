@@ -1,4 +1,13 @@
-This is an empty JS project which can be used as a playground.
+## Introduction
+
+In this test, you will implement print method of `ReceiptPrinter` class. This method accepts a collection of barcode strings. You should extract the information from the barcodes parameters as well as products in order to create the receipt.
+For more details, please read the tests. Please note that you **CAN ONLY** modify code within the range defined by `<-start-` and `--end->`.
+
+> Hint: It is recommended that you pass the tests one by one.
+
+> Hint: You may cry if you don't split the problem into small ones.
+
+> Hint: No 3rd party libraries are allowed to use.
 
 ## Hint
 
