@@ -1,0 +1,30 @@
+{
+  "name": "javascript",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A empty js project playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --format friendly src/**/*.js"
+  },
+  "author": "Liu Xia",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/jest": "^25.2.3",
+    "babel-jest": "^26.0.1",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1",
+    "utf-8-validate": "^5.0.2"
+  }
+}
