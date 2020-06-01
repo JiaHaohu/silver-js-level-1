@@ -15,7 +15,7 @@ describe('when using receipt printer', () => {
     expect(() => printer.print(['What the hell is this'])).toThrowError('Unknown barcode.');
   });
 
-  it('should print receipt when nothing is bought (undefined)', () => {
+  fit('should print receipt when nothing is bought (undefined)', () => {
     const printer = new ReceiptPrinter(products);
     const receipt = printer.print();
     expect(receipt).toEqual(
