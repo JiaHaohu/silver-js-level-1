@@ -8,7 +8,7 @@ export default class ReceiptPrinter {
     // <-start-
     var result = '';
 
-    if (barcodes === undefined){
+    if (barcodes === undefined || barcodes.length == 0){
       result = this.appendReceipt(result);
       result += '\n';
       result = this.appendTotal(result);
