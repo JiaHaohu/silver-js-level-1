@@ -26,7 +26,7 @@ describe('when using receipt printer', () => {
     );
   });
 
-  fit('should print receipt when nothing is bought (empty)', () => {
+  it('should print receipt when nothing is bought (empty)', () => {
     const printer = new ReceiptPrinter(products);
     const receipt = printer.print([]);
     expect(receipt).toEqual(
