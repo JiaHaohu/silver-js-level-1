@@ -14,7 +14,6 @@ export default class ReceiptPrinter {
       result += '\n';
       result = appendTotal(result);
       result += '0.00';
-
       return result;
     }
 
@@ -28,7 +27,6 @@ export default class ReceiptPrinter {
       if (myProduct === undefined) {
         throw new Error('Unknown barcode.');
       } else {
-        // eslint-disable-next-line no-undef
         myProductMap = createmyProductMap(myProduct, barcode, myProductMap);
       }
     }
